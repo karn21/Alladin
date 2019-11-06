@@ -19,3 +19,11 @@ body{
     color: silver;
     background-color: darkslategray;
 }
+
+.bg-black{
+    background: black;
+}
+
+.carousel-setup{
+    margin: 50px;
+}
