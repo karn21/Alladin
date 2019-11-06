@@ -14,44 +14,53 @@
 <body>
 
 
-	<div class="navigation-up">
-		<!--Navigation bar !-->
-		<ul class="nav justify-content-end">
-			<!--padding added by adding pad class-->
-			  <li class="nav-item dropdown pad">
-			    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Resort</a>
-			    <div class="dropdown-menu">
-			      <a class="dropdown-item" href="#">Vision</a>
-			      <a class="dropdown-item" href="#">Facts and Figures</a>
-			      <div class="dropdown-divider"></div>
-			      <a class="dropdown-item" href="#">Contact Us</a>
-			    </div>
-			  </li>
-			  <li class="nav-item pad">
-			    <a class="nav-link text-white" href="#">The Lounge</a>
-			  </li>
-			  <li class="nav-item pad">
-			    <a class="nav-link text-white" href="#">Gallery</a>
-			  </li>
-			  <li>
-			  	<li class="nav-item dropdown pad">
-			    	<a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Amentities</a>
-			    	<div class="dropdown-menu">
-			      		<a class="dropdown-item" href="#">Restraunts</a>
-			      		<a class="dropdown-item" href="#">Spa</a>
-			      		<a class="dropdown-item" href="#">Swimming Pool</a>
-			      		<a class="dropdown-item" href="#">Banquet</a>
-			  	</li>
-			  </li>
-		</ul>
-
-	</div>
+		<nav class="navbar sticky-top navbar-expand-lg bg-dark">
+				<div class="container">
+				<a class="navbar-brand"z href="#">Logo</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto w-100 justify-content-end">
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white adding-hover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Resort</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="#">Vision</a>
+							  <a class="dropdown-item" href="#">Facts and Figures</a>
+							  <div class="dropdown-divider"></div>
+							  <a class="dropdown-item" href="#">Contact Us</a>
+							</div>
+					</li>
+	
+					<li class="nav-item">
+						<a class="nav-link text-white adding-hover" href="#">The Lounge</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white adding-hover" href="#">Gallery</a>
+					</li>
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white adding-hover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Amentities</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="#">Restraunts</a>
+							  <a class="dropdown-item" href="#">Spa</a>
+							  <a class="dropdown-item" href="#">Swimming Pool</a>
+							  <a class="dropdown-item" href="#">Banquet</a>
+					</li>
+					<li class="nav-item">
+							<button class="btn btn-warning">Book Now</button>
+						</li>
+	
+					</ul>
+				</div>
+				</div>
+			</nav>
 
 
 	<div id="card-container">
 		
 		<div class="card mt-4 mr-5 ml-5 md-5 hover" style="width: 20rem;">
-		  <img src="room.jpeg" class="card-img-top image-card" alt="...">
+		  <img src="images/room.jpeg" class="card-img-top image-card" alt="...">
 		  <div class="card-body bg-black">
 		    <h5 class="card-title text-white"><u>Room</u></h5>
 		    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -60,7 +69,7 @@
 		</div>
 
 		<div class="card mt-4 mr-5 ml-5 md-5 hover" style="width: 20rem;">
-		  <img src="spa.jpeg" class="card-img-top image-card" alt="...">
+		  <img src="images/spa.jpeg" class="card-img-top image-card" alt="...">
 		  <div class="card-body bg-black">
 		    <h5 class="card-title text-white"><u>Spa</u></h5>
 		    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -69,7 +78,7 @@
 		</div>
 
 		<div class="card mt-4 mr-5 ml-5 md-5 hover" style="width: 20rem;">
-		  <img src="swimming pool.jpeg" class="card-img-top image-card" alt="...">
+		  <img src="images/swimming pool.jpeg" class="card-img-top image-card" alt="...">
 		  <div class="card-body bg-black">
 		    <h5 class="card-title text-white"><u>Swimming Pool</u></h5>
 		    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -78,7 +87,7 @@
 		</div>
 
 		<div class="card mt-4 mr-5 ml-5 md-5 hover" style="width: 20rem;">
-		  <img src="restaurant.jpeg" class="card-img-top image-card" alt="...">
+		  <img src="images/restaurant.jpeg" class="card-img-top image-card" alt="...">
 		  <div class="card-body bg-black">
 		    <h5 class="card-title text-white">Restaurant</h5>
 		    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -87,9 +96,9 @@
 		</div>
 
 		<div class="card mt-4 mr-5 ml-5 md-5 hover" style="width: 20rem;">
-		  <img src="banquet.jpeg" class="card-img-top image-card" alt="...">
+		  <img src="images/banquet.jpeg" class="card-img-top image-card" alt="...">
 		  <div class="card-body bg-black">
-		    <h5 class="card-title text-white"><u>Benquet</u></h5>
+		    <h5 class="card-title text-white"><u>Banquet</u></h5>
 		    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 		    <a href="#" class="btn btn-yellow">Book Now</a>
 		  </div>
