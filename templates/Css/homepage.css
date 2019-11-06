@@ -15,3 +15,7 @@ body{
     height: 5px;
 }
 
+.adding-hover:hover{
+    color: silver;
+    background-color: darkslategray;
+}
