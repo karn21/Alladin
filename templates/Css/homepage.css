@@ -1,0 +1,11 @@
+.navigation-up{
+    background-color: black;
+    height: 75px;
+}
+.pad{
+    padding: 15px;
+}
+.position{
+    display: flex;
+    top: 150px;
+}
