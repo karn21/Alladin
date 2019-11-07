@@ -1,0 +1,18 @@
+.bg-black{
+    background: black;
+}
+.container-new{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.response{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hovering:hover{
+    transform:scale(1.1) ;
+}
