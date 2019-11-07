@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+
+<head>
+
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+    <meta charset="utf-8">
+
+
+<body>
+    <form action="{% url 'payment:done' amenity %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="order_id" value="{{order_id}}">
+        <script src="https://checkout.razorpay.com/v1/checkout.js" data-key="rzp_test_uxRindHmJsVyEV"
+            data-amount="{{amount}}" data-currency="INR" data-order_id="{{order_id}}"
+            data-buttontext="Continue to Payment" data-name="Alladin" data-description="One more step..."
+            data-image="{% static 'favicon.ico' %}" data-prefill.name="{{user}}" data-prefill.email="{{email}}"
+            data-theme.color="#000000"></script>
+        <input type="hidden" custom="Hidden Element" name="hidden"></form>
+</body>
+
+</html>
