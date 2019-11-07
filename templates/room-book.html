@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="Css/room-book.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<nav class="navbar sticky-top navbar-expand-lg bg-black">
+			<div class="container">
+			<a class="navbar-brand" href="#">Logo</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+		
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto w-100 justify-content-end">
+				<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white adding-hover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Resort</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#">Vision</a>
+						  <a class="dropdown-item" href="#">Facts and Figures</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Contact Us</a>
+						</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-white adding-hover" href="#">The Lounge</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white adding-hover" href="#">Gallery</a>
+				</li>
+				<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white adding-hover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Amentities</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#">Restraunts</a>
+						  <a class="dropdown-item" href="#">Spa</a>
+						  <a class="dropdown-item" href="#">Swimming Pool</a>
+						  <a class="dropdown-item" href="#">Banquet</a>
+				</li>
+				<li class="nav-item">
+					<button class="btn btn-warning">Book Now</button>
+				</li>
+
+				</ul>
+			</div>
+			</div>
+		</nav>
+
+	<div id="container">
+		<form>
+
+		  <div class="form-group">
+		    <label for="name" class="text-white">Name</label>
+		    <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+		    <small id="emailHelp" class="form-text text-info"><sup>*</sup>We'll never share your details with anyone else.</small>
+		  </div>
+
+		  <div class="form-group">
+		  	<label for="email" class="text-white">Email address</label>
+		    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="contact" class="text-white">Contact No.</label>
+		    <input type="tel" class="form-control" id="contact" placeholder="Enter Contact No." pattern="[0-9]*" required>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="room-type" class="text-white">Room Type</label>
+		    <select class="form-control" id="room-type">
+		      <option>Delux</option>
+		      <option>Super Delux</option>
+		    </select>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="members" class="text-white">No. Of Persons</label>
+		    <select class="form-control" id="members">
+		      <option>1</option>
+		      <option>2</option>
+		      <option>3</option>
+		      <option>4</option>
+		      <option>5</option>
+		    </select>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="from" class="text-white">From</label>
+		    <input type="date" class="form-control" id="from" required>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="to" class="text-white">To</label>
+		    <input type="date" class="form-control" id="to" required>
+		  </div>
+
+		  <div class="form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
+		  </div>
+
+		  <button type="submit" class="btn btn-yellow">Submit</button>
+		
+		</form>
+	</div>
+
+	<!--Footer is here-->
+		<footer class="page-footer font-small special-color-dark pt-4 bg-black">
+
+			<!-- Footer Elements -->
+			<div class="container">
+		
+			<!-- Social buttons -->
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+				<a class="btn-floating btn-fb mx-1 text-white" href="#">
+					<i class="fab fa-facebook-f fa-2x"> </i>
+				</a>
+				</li>
+				<li class="list-inline-item">
+				<a class="btn-floating btn-tw mx-1 text-white" href="#">
+					<i class="fab fa-twitter fa-2x"> </i>
+				</a>
+				</li>
+				<li class="list-inline-item">
+				<a class="btn-floating btn-gplus mx-1 text-white" href="#">
+					<i class="fab fa-google-plus-g fa-2x"> </i>
+				</a>
+				</li>
+				<li class="list-inline-item">
+				<a class="btn-floating btn-li mx-1 text-white" href="#">
+					<i class="fab fa-linkedin-in fa-2x"> </i>
+				</a>
+				</li>
+				<li class="list-inline-item">
+				<a class="btn-floating btn-dribbble mx-1 text-white" href="#">
+					<i class="fab fa-instagram fa-2x"></i>
+				</a>
+				</li>
+			</ul>
+			<!-- Social buttons -->
+		
+			</div>
+			<!-- Footer Elements -->
+		
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3 text-white ">© 2019 Copyright:
+			<a href="#"> M@cM@ni@cs</a>
+			</div>
+			<!-- Copyright -->
+		
+		</footer>
+		<!-- Footer -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

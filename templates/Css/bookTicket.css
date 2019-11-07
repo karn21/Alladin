@@ -1,0 +1,44 @@
+body{
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#card-container{
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.btn-yellow{
+	background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card{
+	margin: 15px;
+	transition-property: all;
+	transition-delay: 0.1s;
+	transition-timing-function: ease;
+}
+.text-white{
+	color: white;
+}
+.image-card{
+	height: 331px;
+	width: 318px;
+}
+
+.card:hover{
+	transform: scale(1.05);
+}
+
+.bg-black{
+	background: black;
+}
